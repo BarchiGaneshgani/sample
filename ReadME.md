@@ -105,6 +105,7 @@ selector{
 	- grouping slector  (,)
 	- class selector
 	- id selector
+	-  universal selector(*)
 - combinators
 	- descendant selector( )
 	- child selector(>)
@@ -113,7 +114,13 @@ selector{
 - pesudo class selector
 - pseudo element selector
 - Attribute selector
-- 	
+- universal selector
+
+#### box model
+- margin
+- border
+- padding
+- width   
 
 
 
