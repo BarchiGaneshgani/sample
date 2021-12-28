@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selector</title>
+    <style>
+       
+     div p{
+        color: tomato;
+        background-color: rgb(5, 5, 5);
+    }    
+    div  >p{
+            color: rgb(15, 47, 224);
+            background-color: thistle;
+        } 
+        div  +p{
+            color: yellowgreen;
+            background-color:violet;
+        } 
+        section+p{
+            color: tomato;
+            background-color: rgb(161, 187, 184);
+        }
+        div~p{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <section style="background :rgb(117, 12, 100);">
+            paragraph 12
+            paragraph 22
+        </section>
+        <p>paragraph 1</p>
+        <p>paragraph21</p>
+        <div>
+            <p>paragraph 3</p>
+        </div>
+        <section>
+                paragraph 8
+        </section>
+        <p>paragraph 4</p>
+        <p>paragraph 5</p>
+    </div>
+</body>
+</html>
