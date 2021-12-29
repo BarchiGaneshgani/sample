@@ -122,5 +122,65 @@ selector{
 - padding
 - width   
 
+####  dispaly
+- flex
+  - flex wrap
+  - justify control
+  - flex direction
+  - flex flow 
+-  display
+-position
+   - static
+   - relative
+   - absolute
+   -  fixed
+   -  sticky
+- algin-content
+- alagin-items
+- align - self
 
+#### media devices
+- extra small device
+  - max width:600px 
+- small devices
+  - min width:600px
+- medium devices
+- min width 768px
+-   large diaplay
+- min 
+- extra large display
+syntax:
+@media only screen(max_width:320px){
+	css code
+}
+###  bootstrap
+- css framework
+- background colour- bg
+- mt(margin top)
+- ml(margin left)
+- mr(margin right)
+- mb(margin bottom)
+- m(margin all       sides)
+- margin in boot strap(m-* (0-5))
+	- 0 ----> 0rem
+	- 1 ----> 0.25rem
+	- 2 ----> 0.5rem
+	- 3 ----> 1rem
+	- 4 ----> 1.5rem
+	- 5 ----> 3rem
 
+	- colors
+	 - primary
+	 - secondary
+	 - info
+	 - sucess
+	 - warning
+	 - gander
+	 - light
+	 - dark
+	 - white
+
+	- uses
+	- button (btn---> primary)
+	- background (bg---->secondary)
+	- alert (alert---> primary)
